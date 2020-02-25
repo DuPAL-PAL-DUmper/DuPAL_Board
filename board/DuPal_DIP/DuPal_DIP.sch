@@ -388,4 +388,250 @@ Wire Wire Line
 	9700 3100 10800 3100
 Wire Wire Line
 	9700 3200 10800 3200
+$Comp
+L Logic_Programmable:PAL16L8 U5
+U 1 1 5E5512FA
+P 6700 1650
+F 0 "U5" H 6400 2250 50  0000 C CNN
+F 1 "PAL16L8" H 6950 2250 50  0000 C CNN
+F 2 "" H 6700 1650 50  0001 C CNN
+F 3 "" H 6700 1650 50  0001 C CNN
+	1    6700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E551F7F
+P 6700 2300
+F 0 "#PWR?" H 6700 2050 50  0001 C CNN
+F 1 "GND" H 6705 2127 50  0000 C CNN
+F 2 "" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2300 6700 2250
+$Comp
+L power:VCC #PWR?
+U 1 1 5E5538C6
+P 6700 900
+F 0 "#PWR?" H 6700 750 50  0001 C CNN
+F 1 "VCC" H 6717 1073 50  0000 C CNN
+F 2 "" H 6700 900 50  0001 C CNN
+F 3 "" H 6700 900 50  0001 C CNN
+	1    6700 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 900  6700 950 
+Text Label 10800 1300 2    50   ~ 0
+PAL_I2
+Text Label 10800 1400 2    50   ~ 0
+PAL_I3
+Text Label 10800 1500 2    50   ~ 0
+PAL_I4
+Text Label 10800 1600 2    50   ~ 0
+PAL_I5
+Text Label 10800 1700 2    50   ~ 0
+PAL_I6
+Text Label 10800 1800 2    50   ~ 0
+PAL_I7
+Text Label 10800 1900 2    50   ~ 0
+PAL_I8
+Text Label 10800 1200 2    50   ~ 0
+PAL_I1
+Text Label 10800 3100 2    50   ~ 0
+PAL_I9
+Text Label 10800 3200 2    50   ~ 0
+PAL_I10
+Text Label 10800 3300 2    50   ~ 0
+PAL_IO1
+Text Label 10800 3400 2    50   ~ 0
+PAL_IO2
+Text Label 10800 3500 2    50   ~ 0
+PAL_IO3
+Text Label 10800 3600 2    50   ~ 0
+PAL_IO4
+Text Label 10800 3700 2    50   ~ 0
+PAL_IO5
+Text Label 10800 3800 2    50   ~ 0
+PAL_IO6
+Text Label 10800 5050 2    50   ~ 0
+PAL_IO7
+Text Label 10800 5150 2    50   ~ 0
+PAL_IO8
+Text Label 10800 5250 2    50   ~ 0
+PAL_IO9
+Text Label 10800 5350 2    50   ~ 0
+PAL_IO10
+Text Label 10800 5450 2    50   ~ 0
+PAL_IO11
+Text Label 10800 5550 2    50   ~ 0
+PAL_IO12
+Text Label 10800 5650 2    50   ~ 0
+PAL_IO13
+Text Label 10800 5750 2    50   ~ 0
+PAL_IO14
+Wire Wire Line
+	7200 1150 7750 1150
+Wire Wire Line
+	7200 1250 7750 1250
+Wire Wire Line
+	7200 1350 7750 1350
+Wire Wire Line
+	7200 1450 7750 1450
+Wire Wire Line
+	7200 1550 7750 1550
+Wire Wire Line
+	7200 1650 7750 1650
+Wire Wire Line
+	7200 1750 7750 1750
+Wire Wire Line
+	7200 1850 7750 1850
+Text Label 7750 1150 2    50   ~ 0
+PAL_IO1
+Text Label 7750 1250 2    50   ~ 0
+PAL_IO2
+Text Label 7750 1350 2    50   ~ 0
+PAL_IO3
+Text Label 7750 1450 2    50   ~ 0
+PAL_IO4
+Text Label 7750 1550 2    50   ~ 0
+PAL_IO5
+Text Label 7750 1650 2    50   ~ 0
+PAL_IO6
+Text Label 7750 1750 2    50   ~ 0
+PAL_IO7
+Text Label 7750 1850 2    50   ~ 0
+PAL_IO8
+Wire Wire Line
+	6200 1150 5500 1150
+Wire Wire Line
+	6200 1250 5500 1250
+Wire Wire Line
+	6200 1350 5500 1350
+Wire Wire Line
+	6200 1450 5500 1450
+Wire Wire Line
+	6200 1550 5500 1550
+Wire Wire Line
+	6200 1650 5500 1650
+Wire Wire Line
+	6200 1750 5500 1750
+Wire Wire Line
+	6200 1850 5500 1850
+Wire Wire Line
+	6200 1950 5500 1950
+Wire Wire Line
+	6200 2050 5500 2050
+Text Label 5500 1150 0    50   ~ 0
+PAL_I1
+Text Label 5500 1250 0    50   ~ 0
+PAL_I2
+Text Label 5500 1350 0    50   ~ 0
+PAL_I3
+Text Label 5500 1450 0    50   ~ 0
+PAL_I4
+Text Label 5500 1550 0    50   ~ 0
+PAL_I5
+Text Label 5500 1650 0    50   ~ 0
+PAL_I6
+Text Label 5500 1750 0    50   ~ 0
+PAL_I7
+Text Label 5500 1850 0    50   ~ 0
+PAL_I8
+Text Label 5500 1950 0    50   ~ 0
+PAL_I9
+Text Label 5500 2050 0    50   ~ 0
+PAL_I10
+$Comp
+L power:VCC #PWR?
+U 1 1 5E5B3D6B
+P 2300 1600
+F 0 "#PWR?" H 2300 1450 50  0001 C CNN
+F 1 "VCC" H 2317 1773 50  0000 C CNN
+F 2 "" H 2300 1600 50  0001 C CNN
+F 3 "" H 2300 1600 50  0001 C CNN
+	1    2300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1800 2250 1700
+Wire Wire Line
+	2250 1700 2300 1700
+Wire Wire Line
+	2350 1700 2350 1800
+Wire Wire Line
+	2300 1700 2300 1600
+Connection ~ 2300 1700
+Wire Wire Line
+	2300 1700 2350 1700
+$Comp
+L power:VCC #PWR?
+U 1 1 5E5BA9B3
+P 1500 2700
+F 0 "#PWR?" H 1500 2550 50  0001 C CNN
+F 1 "VCC" V 1518 2827 50  0000 L CNN
+F 2 "" H 1500 2700 50  0001 C CNN
+F 3 "" H 1500 2700 50  0001 C CNN
+	1    1500 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 2700 1500 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5E5C11F5
+P 2300 4750
+F 0 "#PWR?" H 2300 4500 50  0001 C CNN
+F 1 "GND" H 2305 4577 50  0000 C CNN
+F 2 "" H 2300 4750 50  0001 C CNN
+F 3 "" H 2300 4750 50  0001 C CNN
+	1    2300 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4600 2250 4650
+Wire Wire Line
+	2250 4650 2300 4650
+Wire Wire Line
+	2350 4650 2350 4600
+Wire Wire Line
+	2300 4650 2300 4750
+Connection ~ 2300 4650
+Wire Wire Line
+	2300 4650 2350 4650
+Wire Wire Line
+	2850 3500 3150 3500
+Wire Wire Line
+	2850 3600 3150 3600
+Text Label 3150 3500 2    50   ~ 0
+TTL-RX
+Text Label 3150 3600 2    50   ~ 0
+TTL-TX
+Wire Wire Line
+	1650 2300 1150 2300
+Wire Wire Line
+	1650 2500 1150 2500
+Wire Wire Line
+	1650 2100 1150 2100
+Text Label 1150 2100 0    50   ~ 0
+~RESET
+Text Label 1150 2300 0    50   ~ 0
+XTAL1
+Text Label 1150 2500 0    50   ~ 0
+XTAL2
+Wire Wire Line
+	2850 2400 3350 2400
+Wire Wire Line
+	2850 2500 3350 2500
+Wire Wire Line
+	2850 2600 3350 2600
+Text Label 3350 2400 2    50   ~ 0
+MOSI
+Text Label 3350 2500 2    50   ~ 0
+MISO
+Text Label 3350 2600 2    50   ~ 0
+SCK
 $EndSCHEMATC
