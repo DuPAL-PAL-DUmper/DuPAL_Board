@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 602)
     (zones 0)
     (modules 42)
@@ -2841,6 +2841,9 @@
     )
   )
 
+  (gr_text rev.0 (at 95.25 140.97) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "Power LED" (at 93.98 72.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
