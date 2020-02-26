@@ -307,11 +307,9 @@ PAL_IO5
 Text Label 10800 4800 2    50   ~ 0
 PAL_IO6
 Text Label 4000 3400 2    50   ~ 0
-PAL_IO7
+PAL_TRIO1
 Text Label 4000 3500 2    50   ~ 0
-PAL_IO8
-Wire Wire Line
-	7200 1150 7750 1150
+PAL_TRIO2
 Wire Wire Line
 	7200 1250 7750 1250
 Wire Wire Line
@@ -325,23 +323,25 @@ Wire Wire Line
 Wire Wire Line
 	7200 1750 7750 1750
 Wire Wire Line
+	7200 1150 7750 1150
+Wire Wire Line
 	7200 1850 7750 1850
-Text Label 7750 1150 2    50   ~ 0
-PAL_IO1
 Text Label 7750 1250 2    50   ~ 0
-PAL_IO2
+PAL_IO1
 Text Label 7750 1350 2    50   ~ 0
-PAL_IO3
+PAL_IO2
 Text Label 7750 1450 2    50   ~ 0
-PAL_IO4
+PAL_IO3
 Text Label 7750 1550 2    50   ~ 0
-PAL_IO5
+PAL_IO4
 Text Label 7750 1650 2    50   ~ 0
-PAL_IO6
+PAL_IO5
 Text Label 7750 1750 2    50   ~ 0
-PAL_IO7
+PAL_IO6
+Text Label 7750 1150 2    50   ~ 0
+PAL_TRIO1
 Text Label 7750 1850 2    50   ~ 0
-PAL_IO8
+PAL_TRIO2
 Wire Wire Line
 	6200 1150 5500 1150
 Wire Wire Line
@@ -1336,9 +1336,9 @@ PAL_IO5
 Text Label 3400 3100 2    50   ~ 0
 PAL_IO6
 Text Label 3400 3200 2    50   ~ 0
-PAL_IO7
+PAL_TRIO1
 Text Label 3400 3300 2    50   ~ 0
-PAL_IO8
+PAL_TRIO2
 $Comp
 L power:GND #PWR?
 U 1 1 5E550F46
