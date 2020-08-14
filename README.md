@@ -73,15 +73,6 @@ The power connector has a positive tip, and is protected against reverse voltage
 - *3x 16pin socket (optional)*
 - *1x 28pin slim socket (optional)*
 
-## Revisions
-
-### Rev.1
-
-First version of the board, recognizable by a "rev.1" on the bottom right corner.
-
-- Supports 20 pin PAL devices
-- RS232 interfacing
-
 ## Ideas for future versions
 
 - Replace the MAX232 and serial port with an USB connection, using an FTDI chip or similar
