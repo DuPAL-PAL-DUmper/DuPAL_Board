@@ -8,7 +8,7 @@ This board was designed and built to help myself bruteforce PAL devices. It has 
 
 Details on how the features are implemented can be found on the Firmware's repository.
 
-![Current PCB design](pics/rev1_pcb.png)
+![Current PCB design](pics/rev1.1_pcb.png)
 
 ## Software
 
