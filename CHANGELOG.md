@@ -1,6 +1,6 @@
 # Board Revisions
 
-## Rev. 1.1 (2020-08-17)
+## Rev. 1.1 (2020-08-15)
 
 - Fixed the ugly silkscreen from rev.1
 
