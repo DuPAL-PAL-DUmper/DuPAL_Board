@@ -7,6 +7,8 @@ First produced  version of the board, recognizable by a "rev.1" on the bottom ri
 - Supports 20 pin PAL devices
 - RS232 interfacing
 
+![Rev.1 PCB](pics/rev1_pcb.png)
+
 ## Rev.0 (2019-??-??)
 
 First design, was never produced. Had some ICs too near to actually fit.

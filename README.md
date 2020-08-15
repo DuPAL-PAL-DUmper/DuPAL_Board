@@ -8,6 +8,8 @@ This board was designed and built to help myself bruteforce PAL devices. It has 
 
 Details on how the features are implemented can be found on the Firmware's repository.
 
+![Current PCB design](pics/rev1_pcb.png)
+
 ## Software
 
 ### Bootloader
@@ -72,8 +74,3 @@ The power connector has a positive tip, and is protected against reverse voltage
 - *Heat sink for the power regulator (optional, but recommended)*
 - *3x 16pin socket (optional)*
 - *1x 28pin slim socket (optional)*
-
-## Ideas for future versions
-
-- Replace the MAX232 and serial port with an USB connection, using an FTDI chip or similar
-- Implement support for 24 pin PAL chips
