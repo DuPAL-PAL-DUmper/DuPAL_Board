@@ -919,7 +919,7 @@ U 1 1 5E8C0200
 P 5000 4500
 F 0 "U7" H 5000 4742 50  0000 C CNN
 F 1 "L7805" H 5000 4651 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5025 4350 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 5025 4350 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 5000 4450 50  0001 C CNN
 	1    5000 4500
 	1    0    0    -1  
@@ -1170,10 +1170,10 @@ RECT_V12
 Wire Wire Line
 	4300 5500 4750 5500
 $Comp
-L 74xx:74HC595 U7
+L 74xx:74HC595 U9
 U 1 1 5F3CD878
 P 13850 5300
-F 0 "U7" H 13600 5850 50  0000 C CNN
+F 0 "U9" H 13600 5850 50  0000 C CNN
 F 1 "74HC595" H 14100 5850 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 13850 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 13850 5300 50  0001 C CNN
@@ -1619,10 +1619,10 @@ F 3 "~" H 1750 9550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C14
+L Device:C_Small C16
 U 1 1 619A5323
 P 1750 9750
-F 0 "C14" V 1800 9900 50  0000 C CNN
+F 0 "C16" V 1800 9900 50  0000 C CNN
 F 1 "100nF" V 1800 9600 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 1750 9750 50  0001 C CNN
 F 3 "~" H 1750 9750 50  0001 C CNN
@@ -1650,10 +1650,10 @@ Wire Wire Line
 Wire Wire Line
 	1850 9750 2050 9750
 $Comp
-L Device:C_Small C15
+L Device:C_Small C17
 U 1 1 61A81BD7
 P 1750 9950
-F 0 "C15" V 1800 10100 50  0000 C CNN
+F 0 "C17" V 1800 10100 50  0000 C CNN
 F 1 "100nF" V 1800 9800 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 1750 9950 50  0001 C CNN
 F 3 "~" H 1750 9950 50  0001 C CNN
