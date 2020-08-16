@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 24)
+    (drawings 25)
     (tracks 1097)
     (zones 0)
     (modules 56)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1331,7 +1331,7 @@
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /5E54D2F2)
-    (fp_text reference U2 (at 1.27 -2.33) (layer F.SilkS)
+    (fp_text reference U2 (at 3.81 -2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 74HC595 (at 3.81 20.11) (layer F.Fab)
@@ -3506,6 +3506,9 @@
     )
   )
 
+  (gr_text "!POWER OFF!\nthe board before\ninserting a PAL\ninto a socket" (at 142.24 76.2) (layer F.SilkS)
+    (effects (font (size 1.25 1.25) (thickness 0.15)))
+  )
   (gr_line (start 180.34 77.47) (end 181.61 78.74) (layer F.SilkS) (width 0.12) (tstamp 5F3A0884))
   (gr_line (start 182.88 77.47) (end 181.61 78.74) (layer F.SilkS) (width 0.12) (tstamp 5F3A0883))
   (gr_line (start 181.61 78.74) (end 180.34 77.47) (layer F.SilkS) (width 0.12) (tstamp 5F3A0882))
