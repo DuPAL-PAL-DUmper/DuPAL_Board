@@ -188,40 +188,40 @@ $EndComp
 $Comp
 L Logic_Programmable:PAL16L8 U5
 U 1 1 5E5512FA
-P 6700 1650
-F 0 "U5" H 6400 2250 50  0000 C CNN
-F 1 "20 Pin PAL" H 6950 2250 50  0000 C CNN
-F 2 "Socket:DIP_Socket-20_W4.3_W5.08_W7.62_W10.16_W10.9_3M_220-3342-00-0602J" H 6700 1650 50  0001 C CNN
-F 3 "" H 6700 1650 50  0001 C CNN
-	1    6700 1650
+P 6300 1550
+F 0 "U5" H 6000 2150 50  0000 C CNN
+F 1 "20 Pin PAL" H 6550 2150 50  0000 C CNN
+F 2 "Socket:DIP_Socket-20_W4.3_W5.08_W7.62_W10.16_W10.9_3M_220-3342-00-0602J" H 6300 1550 50  0001 C CNN
+F 3 "" H 6300 1550 50  0001 C CNN
+	1    6300 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5E551F7F
-P 6700 2300
-F 0 "#PWR0104" H 6700 2050 50  0001 C CNN
-F 1 "GND" H 6705 2127 50  0000 C CNN
-F 2 "" H 6700 2300 50  0001 C CNN
-F 3 "" H 6700 2300 50  0001 C CNN
-	1    6700 2300
+P 6300 2200
+F 0 "#PWR0104" H 6300 1950 50  0001 C CNN
+F 1 "GND" H 6305 2027 50  0000 C CNN
+F 2 "" H 6300 2200 50  0001 C CNN
+F 3 "" H 6300 2200 50  0001 C CNN
+	1    6300 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 2300 6700 2250
+	6300 2200 6300 2150
 $Comp
 L power:VCC #PWR0105
 U 1 1 5E5538C6
-P 6700 900
-F 0 "#PWR0105" H 6700 750 50  0001 C CNN
-F 1 "VCC" H 6717 1073 50  0000 C CNN
-F 2 "" H 6700 900 50  0001 C CNN
-F 3 "" H 6700 900 50  0001 C CNN
-	1    6700 900 
+P 6300 800
+F 0 "#PWR0105" H 6300 650 50  0001 C CNN
+F 1 "VCC" H 6317 973 50  0000 C CNN
+F 2 "" H 6300 800 50  0001 C CNN
+F 3 "" H 6300 800 50  0001 C CNN
+	1    6300 800 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 900  6700 950 
+	6300 800  6300 850 
 $Comp
 L power:VCC #PWR0106
 U 1 1 5E5B3D6B
@@ -1480,76 +1480,76 @@ P20_18
 Text Label 9750 7950 2    50   ~ 0
 P20_19
 Wire Wire Line
-	6200 1150 5750 1150
+	5800 1050 5350 1050
 Wire Wire Line
-	6200 1250 5750 1250
+	5800 1150 5350 1150
 Wire Wire Line
-	6200 1350 5750 1350
+	5800 1250 5350 1250
 Wire Wire Line
-	6200 1450 5750 1450
+	5800 1350 5350 1350
 Wire Wire Line
-	6200 1550 5750 1550
+	5800 1450 5350 1450
 Wire Wire Line
-	6200 1650 5750 1650
+	5800 1550 5350 1550
 Wire Wire Line
-	6200 1750 5750 1750
+	5800 1650 5350 1650
 Wire Wire Line
-	6200 1850 5750 1850
+	5800 1750 5350 1750
 Wire Wire Line
-	6200 1950 5750 1950
+	5800 1850 5350 1850
 Wire Wire Line
-	6200 2050 5750 2050
+	5800 1950 5350 1950
 Wire Wire Line
-	7200 1150 7800 1150
+	6800 1050 7400 1050
 Wire Wire Line
-	7200 1250 7800 1250
+	6800 1150 7400 1150
 Wire Wire Line
-	7200 1350 7800 1350
+	6800 1250 7400 1250
 Wire Wire Line
-	7200 1450 7800 1450
+	6800 1350 7400 1350
 Wire Wire Line
-	7200 1550 7800 1550
+	6800 1450 7400 1450
 Wire Wire Line
-	7200 1650 7800 1650
+	6800 1550 7400 1550
 Wire Wire Line
-	7200 1750 7800 1750
+	6800 1650 7400 1650
 Wire Wire Line
-	7200 1850 7800 1850
-Text Label 5750 1150 0    50   ~ 0
+	6800 1750 7400 1750
+Text Label 5350 1050 0    50   ~ 0
 P20_1
-Text Label 5750 1250 0    50   ~ 0
+Text Label 5350 1150 0    50   ~ 0
 P20_2
-Text Label 5750 1350 0    50   ~ 0
+Text Label 5350 1250 0    50   ~ 0
 P20_3
-Text Label 5750 1450 0    50   ~ 0
+Text Label 5350 1350 0    50   ~ 0
 P20_4
-Text Label 5750 1550 0    50   ~ 0
+Text Label 5350 1450 0    50   ~ 0
 P20_5
-Text Label 5750 1650 0    50   ~ 0
+Text Label 5350 1550 0    50   ~ 0
 P20_6
-Text Label 5750 1750 0    50   ~ 0
+Text Label 5350 1650 0    50   ~ 0
 P20_7
-Text Label 5750 1850 0    50   ~ 0
+Text Label 5350 1750 0    50   ~ 0
 P20_8
-Text Label 5750 1950 0    50   ~ 0
+Text Label 5350 1850 0    50   ~ 0
 P20_9
-Text Label 5750 2050 0    50   ~ 0
+Text Label 5350 1950 0    50   ~ 0
 P20_11
-Text Label 7800 1850 2    50   ~ 0
+Text Label 7400 1750 2    50   ~ 0
 P20_12
-Text Label 7800 1750 2    50   ~ 0
+Text Label 7400 1650 2    50   ~ 0
 P20_13
-Text Label 7800 1650 2    50   ~ 0
+Text Label 7400 1550 2    50   ~ 0
 P20_14
-Text Label 7800 1550 2    50   ~ 0
+Text Label 7400 1450 2    50   ~ 0
 P20_15
-Text Label 7800 1450 2    50   ~ 0
+Text Label 7400 1350 2    50   ~ 0
 P20_16
-Text Label 7800 1350 2    50   ~ 0
+Text Label 7400 1250 2    50   ~ 0
 P20_17
-Text Label 7800 1250 2    50   ~ 0
+Text Label 7400 1150 2    50   ~ 0
 P20_18
-Text Label 7800 1150 2    50   ~ 0
+Text Label 7400 1050 2    50   ~ 0
 P20_19
 NoConn ~ 14350 5800
 Wire Wire Line
@@ -1952,4 +1952,129 @@ Wire Wire Line
 Connection ~ 4150 2550
 Wire Wire Line
 	4150 2550 4150 2600
+$Comp
+L Logic_Programmable:PAL20L8 U?
+U 1 1 61C8AE16
+P 8500 1750
+F 0 "U?" H 8200 2550 50  0000 C CNN
+F 1 "24 Pin PAL" H 8750 2550 50  0000 C CNN
+F 2 "" H 8500 1750 50  0001 C CNN
+F 3 "" H 8500 1750 50  0001 C CNN
+	1    8500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 61D2E65D
+P 8500 800
+F 0 "#PWR?" H 8500 650 50  0001 C CNN
+F 1 "VCC" H 8517 973 50  0000 C CNN
+F 2 "" H 8500 800 50  0001 C CNN
+F 3 "" H 8500 800 50  0001 C CNN
+	1    8500 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 800  8500 850 
+$Comp
+L power:GND #PWR?
+U 1 1 61D50A38
+P 8500 2600
+F 0 "#PWR?" H 8500 2350 50  0001 C CNN
+F 1 "GND" H 8505 2427 50  0000 C CNN
+F 2 "" H 8500 2600 50  0001 C CNN
+F 3 "" H 8500 2600 50  0001 C CNN
+	1    8500 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2550 8500 2600
+Wire Wire Line
+	8000 1050 7600 1050
+Wire Wire Line
+	8000 1150 7600 1150
+Wire Wire Line
+	8000 1250 7600 1250
+Wire Wire Line
+	8000 1350 7600 1350
+Wire Wire Line
+	8000 1450 7600 1450
+Wire Wire Line
+	8000 1550 7600 1550
+Wire Wire Line
+	8000 1650 7600 1650
+Wire Wire Line
+	8000 1750 7600 1750
+Wire Wire Line
+	8000 1850 7600 1850
+Wire Wire Line
+	8000 1950 7600 1950
+Wire Wire Line
+	8000 2050 7600 2050
+Wire Wire Line
+	8000 2150 7600 2150
+Wire Wire Line
+	8000 2250 7600 2250
+Wire Wire Line
+	8000 2350 7600 2350
+Wire Wire Line
+	9000 1050 9400 1050
+Wire Wire Line
+	9000 1150 9400 1150
+Wire Wire Line
+	9000 1250 9400 1250
+Wire Wire Line
+	9000 1350 9400 1350
+Wire Wire Line
+	9000 1450 9400 1450
+Wire Wire Line
+	9000 1550 9400 1550
+Wire Wire Line
+	9000 1650 9400 1650
+Wire Wire Line
+	9000 1750 9400 1750
+Text Label 7600 1050 0    50   ~ 0
+P24_1
+Text Label 7600 1150 0    50   ~ 0
+P24_2
+Text Label 7600 1250 0    50   ~ 0
+P24_3
+Text Label 7600 1350 0    50   ~ 0
+P24_4
+Text Label 7600 1450 0    50   ~ 0
+P24_5
+Text Label 7600 1550 0    50   ~ 0
+P24_6
+Text Label 7600 1650 0    50   ~ 0
+P24_7
+Text Label 7600 1750 0    50   ~ 0
+P24_8
+Text Label 7600 1850 0    50   ~ 0
+P24_9
+Text Label 7600 1950 0    50   ~ 0
+P24_10
+Text Label 7600 2050 0    50   ~ 0
+P24_11
+Text Label 7600 2150 0    50   ~ 0
+P24_13
+Text Label 7600 2250 0    50   ~ 0
+P24_14
+Text Label 7600 2350 0    50   ~ 0
+P24_23
+Text Label 9400 1750 2    50   ~ 0
+P24_15
+Text Label 9400 1650 2    50   ~ 0
+P24_16
+Text Label 9400 1550 2    50   ~ 0
+P24_17
+Text Label 9400 1450 2    50   ~ 0
+P24_18
+Text Label 9400 1350 2    50   ~ 0
+P24_19
+Text Label 9400 1250 2    50   ~ 0
+P24_20
+Text Label 9400 1150 2    50   ~ 0
+P24_21
+Text Label 9400 1050 2    50   ~ 0
+P24_22
 $EndSCHEMATC
