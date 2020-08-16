@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 25)
+    (drawings 28)
     (tracks 1097)
     (zones 0)
     (modules 56)
@@ -1020,7 +1020,7 @@
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.4*2.1mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.4mm width 2.1mm Capacitor")
     (path /619A425B)
-    (fp_text reference C13 (at 1.25 -2.3 90) (layer F.SilkS)
+    (fp_text reference C13 (at -3.81 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100nF (at 1.25 2.3 90) (layer F.Fab)
@@ -3506,6 +3506,15 @@
     )
   )
 
+  (gr_text https://github.com/DuPAL-PAL-DUmper (at 115.57 132.08) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15) italic))
+  )
+  (gr_text "24 pin PAL active" (at 175.26 132.08) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "20 pin PAL active" (at 154.94 132.08) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "!POWER OFF!\nthe board before\ninserting a PAL\ninto a socket" (at 142.24 76.2) (layer F.SilkS)
     (effects (font (size 1.25 1.25) (thickness 0.15)))
   )
