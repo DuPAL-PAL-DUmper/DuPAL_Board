@@ -1423,26 +1423,6 @@ Text Label 9550 1450 0    50   ~ 0
 PISO_CLK
 Text Label 12500 5350 2    50   ~ 0
 PISO_SER
-Wire Wire Line
-	8500 6350 9750 6350
-Wire Wire Line
-	8500 6450 9750 6450
-Wire Wire Line
-	8500 6550 9750 6550
-Wire Wire Line
-	8500 6650 9750 6650
-Wire Wire Line
-	8500 6750 9750 6750
-Wire Wire Line
-	8500 6850 9750 6850
-Wire Wire Line
-	8500 6950 9750 6950
-Wire Wire Line
-	8500 7050 9750 7050
-Wire Wire Line
-	8500 7150 9750 7150
-Wire Wire Line
-	8500 7250 9750 7250
 Text Label 9750 6350 2    50   ~ 0
 P20_1
 Text Label 9750 6450 2    50   ~ 0
@@ -1691,16 +1671,6 @@ Wire Wire Line
 Wire Wire Line
 	9300 7550 9750 7550
 Wire Wire Line
-	9300 7650 9750 7650
-Wire Wire Line
-	9300 7750 9750 7750
-Wire Wire Line
-	9300 7850 9750 7850
-Wire Wire Line
-	9300 7950 9750 7950
-Wire Wire Line
-	9300 8050 9750 8050
-Wire Wire Line
 	8500 7350 9100 7350
 Wire Wire Line
 	8500 7450 9100 7450
@@ -1749,52 +1719,52 @@ PISO_I_15
 Text Label 9950 5350 0    50   ~ 0
 PISO_I_16
 Wire Wire Line
-	8500 8300 9750 8300
+	8500 8750 9750 8750
 Wire Wire Line
-	8500 8400 9750 8400
+	8500 8850 9750 8850
 Wire Wire Line
-	8500 8500 9750 8500
+	8500 8950 9750 8950
 Wire Wire Line
-	8500 8600 9750 8600
+	8500 9050 9750 9050
 Wire Wire Line
-	8500 8700 9750 8700
+	8500 9150 9750 9150
 Wire Wire Line
-	8500 8800 9750 8800
+	8500 9250 9750 9250
 Wire Wire Line
-	8500 8900 9750 8900
+	8500 9350 9750 9350
 Wire Wire Line
-	8500 9000 9750 9000
-Text Label 9750 8900 2    50   ~ 0
+	8500 9450 9750 9450
+Text Label 9750 9350 2    50   ~ 0
 P20_19
-Text Label 9750 9000 2    50   ~ 0
+Text Label 9750 9450 2    50   ~ 0
 P20_12
-Text Label 9750 8800 2    50   ~ 0
+Text Label 9750 9250 2    50   ~ 0
 P20_13
-Text Label 9750 8700 2    50   ~ 0
+Text Label 9750 9150 2    50   ~ 0
 P20_14
-Text Label 9750 8600 2    50   ~ 0
+Text Label 9750 9050 2    50   ~ 0
 P20_15
-Text Label 9750 8500 2    50   ~ 0
+Text Label 9750 8950 2    50   ~ 0
 P20_16
-Text Label 9750 8400 2    50   ~ 0
+Text Label 9750 8850 2    50   ~ 0
 P20_17
-Text Label 9750 8300 2    50   ~ 0
+Text Label 9750 8750 2    50   ~ 0
 P20_18
-Text Label 8500 8300 0    50   ~ 0
+Text Label 8500 8750 0    50   ~ 0
 PISO_I_16
-Text Label 8500 8400 0    50   ~ 0
+Text Label 8500 8850 0    50   ~ 0
 PISO_I_15
-Text Label 8500 8500 0    50   ~ 0
+Text Label 8500 8950 0    50   ~ 0
 PISO_I_14
-Text Label 8500 8600 0    50   ~ 0
+Text Label 8500 9050 0    50   ~ 0
 PISO_I_13
-Text Label 8500 8700 0    50   ~ 0
+Text Label 8500 9150 0    50   ~ 0
 PISO_I_12
-Text Label 8500 8800 0    50   ~ 0
+Text Label 8500 9250 0    50   ~ 0
 PISO_I_11
-Text Label 8500 8900 0    50   ~ 0
+Text Label 8500 9350 0    50   ~ 0
 PISO_I_10
-Text Label 8500 9000 0    50   ~ 0
+Text Label 8500 9450 0    50   ~ 0
 PISO_I_9
 Wire Wire Line
 	2900 3400 3400 3400
@@ -2077,4 +2047,145 @@ Text Label 9400 1150 2    50   ~ 0
 P24_21
 Text Label 9400 1050 2    50   ~ 0
 P24_22
+Wire Wire Line
+	8500 6350 10750 6350
+Text Label 10750 6350 2    50   ~ 0
+P24_1
+Wire Wire Line
+	8500 6450 10750 6450
+Wire Wire Line
+	8500 6550 10750 6550
+Wire Wire Line
+	8500 6650 10750 6650
+Wire Wire Line
+	8500 6750 10750 6750
+Wire Wire Line
+	8500 6850 10750 6850
+Wire Wire Line
+	8500 6950 10750 6950
+Wire Wire Line
+	8500 7050 10750 7050
+Wire Wire Line
+	8500 7150 10750 7150
+Text Label 10750 6450 2    50   ~ 0
+P24_2
+Text Label 10750 6550 2    50   ~ 0
+P24_3
+Text Label 10750 6650 2    50   ~ 0
+P24_4
+Text Label 10750 6750 2    50   ~ 0
+P24_5
+Text Label 10750 6850 2    50   ~ 0
+P24_6
+Text Label 10750 6950 2    50   ~ 0
+P24_7
+Text Label 10750 7050 2    50   ~ 0
+P24_8
+Text Label 10750 7150 2    50   ~ 0
+P24_9
+Wire Wire Line
+	8500 7250 10750 7250
+Text Label 10750 7250 2    50   ~ 0
+P24_10
+Wire Wire Line
+	9850 7350 10750 7350
+Text Label 10750 7350 2    50   ~ 0
+P24_11
+Text Label 9850 7350 0    50   ~ 0
+SIPO_O_14
+Wire Wire Line
+	9850 7450 10750 7450
+Text Label 9850 7450 0    50   ~ 0
+SIPO_O_13
+Text Label 10750 7450 2    50   ~ 0
+P24_13
+Wire Wire Line
+	9850 7550 10750 7550
+Text Label 10750 7550 2    50   ~ 0
+P24_14
+Text Label 9850 7550 0    50   ~ 0
+SIPO_O_12
+Wire Wire Line
+	9300 7750 10750 7750
+Wire Wire Line
+	9300 7850 10750 7850
+Wire Wire Line
+	9300 7950 10750 7950
+Wire Wire Line
+	9300 8050 10750 8050
+Wire Wire Line
+	9300 7650 10750 7650
+Text Label 10750 7650 2    50   ~ 0
+P24_15
+Text Label 10750 7750 2    50   ~ 0
+P24_16
+Text Label 10750 7850 2    50   ~ 0
+P24_17
+Text Label 10750 7950 2    50   ~ 0
+P24_18
+Text Label 10750 8050 2    50   ~ 0
+P24_19
+$Comp
+L Device:R_Small R?
+U 1 1 6281CDD0
+P 9200 8150
+F 0 "R?" V 9250 8300 50  0000 C CNN
+F 1 "10K" V 9250 8000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9200 8150 50  0001 C CNN
+F 3 "~" H 9200 8150 50  0001 C CNN
+	1    9200 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6281D384
+P 9200 8250
+F 0 "R?" V 9250 8400 50  0000 C CNN
+F 1 "10K" V 9250 8100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9200 8250 50  0001 C CNN
+F 3 "~" H 9200 8250 50  0001 C CNN
+	1    9200 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6281D9F7
+P 9200 8350
+F 0 "R?" V 9250 8500 50  0000 C CNN
+F 1 "10K" V 9250 8200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 9200 8350 50  0001 C CNN
+F 3 "~" H 9200 8350 50  0001 C CNN
+	1    9200 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9100 8150 8500 8150
+Wire Wire Line
+	9100 8250 8500 8250
+Wire Wire Line
+	9100 8350 8500 8350
+Wire Wire Line
+	8500 8450 10750 8450
+Wire Wire Line
+	9300 8150 10750 8150
+Wire Wire Line
+	9300 8250 10750 8250
+Wire Wire Line
+	9300 8350 10750 8350
+Text Label 8500 8150 0    50   ~ 0
+SIPO_O_6
+Text Label 8500 8250 0    50   ~ 0
+SIPO_O_5
+Text Label 8500 8350 0    50   ~ 0
+SIPO_O_4
+Text Label 8500 8450 0    50   ~ 0
+SIPO_O_3
+Text Label 10750 8150 2    50   ~ 0
+P24_20
+Text Label 10750 8250 2    50   ~ 0
+P24_21
+Text Label 10750 8350 2    50   ~ 0
+P24_22
+Text Label 10750 8450 2    50   ~ 0
+P24_23
 $EndSCHEMATC
