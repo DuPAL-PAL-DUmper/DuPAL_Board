@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The DuPAL board is a simple circuit that mounts an AVR MCU (A classic ATmega328P of Arduino fame), two 74HC595 shifters, a MAX232 to adapt the serial port to RS232, a linear voltage regulator and a bunch of other passive components.
+The DuPAL board is a simple circuit that mounts an AVR MCU (A classic ATmega328P of Arduino fame), three 74HC595 SIPO registers, one 74HCT166 PISO register, a MAX232 to adapt the serial port to RS232, a linear voltage regulator and a bunch of other passive components.
 
 This board was designed and built to help myself bruteforce PAL devices. It has the hardware facilities necessary to scan all the inputs of the PAL, to check whether an output is high, low or hi-z and to report back the status to the host.
 
 Details on how the features are implemented can be found on the Firmware's repository.
 
-![Current PCB design](pics/rev1.1_pcb.png)
+![Rev. 2.0 PCB](pics/rev2.0_pcb.png)
 
 ## Software
 
@@ -54,23 +54,25 @@ The power connector has a positive tip, and is protected against reverse voltage
 - 3x2 pins 2.54mm pcb male header
 - 4x 1uF / 35v min electrolytic capacitors
 - 1x 0.22uF / 35v min electrolytic capacitor
-- 7x 100nF ceramic bypass capacitors
+- 11x 100nF ceramic bypass capacitors
 - 2x 22pF NP0 ceramic capacitors
 - 1x 1Mohm 1/4W resistor
 - 1x 1.2k 1/4W resistor
-- 1x 470ohm 1/4W resistor
+- 3x 680ohm 1/4W resistor
 - 9x 10Kohm 1/4W resistors
 - 2x 3mm LED (recommended red for power, green for activity)
 - Power supply female barrel connector
 - DB9 female angled connector
 - 4 pin push button
 - 1N4001 diode
-- 2x 74HC595
+- 3x 74HC595
+- 1x 74HCT166
 - MAX232
 - 7805 TO220 regulator
 - ATMega328p
 - 20Mhz HC49 crystal
 - 20pin slim ZIF socket
+- 24pin slim ZIF socket
 - *Heat sink for the power regulator (optional, but recommended)*
-- *3x 16pin socket (optional)*
+- *5x 16pin socket (optional)*
 - *1x 28pin slim socket (optional)*
