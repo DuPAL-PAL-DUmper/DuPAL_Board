@@ -50,29 +50,5 @@ The power connector has a positive tip, and is protected against reverse voltage
 
 ### Bill of Materials
 
-- Sliding SPST switch
-- 3x2 pins 2.54mm pcb male header
-- 4x 1uF / 35v min electrolytic capacitors
-- 1x 0.22uF / 35v min electrolytic capacitor
-- 11x 100nF ceramic bypass capacitors
-- 2x 22pF NP0 ceramic capacitors
-- 1x 1Mohm 1/4W resistor
-- 1x 1.2k 1/4W resistor
-- 3x 680ohm 1/4W resistor
-- 9x 10Kohm 1/4W resistors
-- 2x 3mm LED (recommended red for power, green for activity)
-- Power supply female barrel connector
-- DB9 female angled connector
-- 4 pin push button
-- 1N4001 diode
-- 3x 74HC595
-- 1x 74HCT166
-- MAX232
-- 7805 TO220 regulator
-- ATMega328p
-- 20Mhz HC49 crystal
-- 20pin slim ZIF socket
-- 24pin slim ZIF socket
-- *Heat sink for the power regulator (optional, but recommended)*
-- *5x 16pin socket (optional)*
-- *1x 28pin slim socket (optional)*
+**TODO for rev. 2**
+
