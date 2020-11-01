@@ -50,29 +50,32 @@ The power connector has a positive tip, and is protected against reverse voltage
 
 ### Bill of Materials
 
-- Sliding SPST switch
-- 3x2 pins 2.54mm pcb male header
-- 4x 1uF / 35v min electrolytic capacitors
-- 1x 0.22uF / 35v min electrolytic capacitor
-- 11x 100nF ceramic bypass capacitors
-- 2x 22pF NP0 ceramic capacitors
-- 1x 1Mohm 1/4W resistor
-- 1x 1.2k 1/4W resistor
-- 3x 680ohm 1/4W resistor
-- 9x 10Kohm 1/4W resistors
-- 2x 3mm LED (recommended red for power, green for activity)
-- Power supply female barrel connector
-- DB9 female angled connector
-- 4 pin push button
-- 1N4001 diode
-- 3x 74HC595
-- 1x 74HCT166
-- MAX232
-- 7805 TO220 regulator
-- ATMega328p
-- 20Mhz HC49 crystal
-- 20pin slim ZIF socket
-- 24pin slim ZIF socket
+- **SW2** - Sliding SPST switch
+- **J1** - 3x2 pins 2.54mm pcb male header
+- **C4, C6 & C7** - 4x 1uF / 35v min electrolytic capacitors
+- **C15** - 1x 0.22uF / 35v min electrolytic capacitor
+- **C3, C8, C9, C10, C11, C12, C13, C14, C16, C17** - 10x 100nF ceramic bypass capacitors
+- **C1 & C2** - 2x 22pF NP0 ceramic capacitors
+- **R18** - 1x 1Mohm 1/4W resistor
+- **R17** - 1x 1.2k 1/4W resistor
+- **R16, R19 & R20** - 3x 680ohm 1/4W resistor
+- **R1, R2, R3, R4, R5, R6, R7, R8 & R15**, 9x 10Kohm 1/4W resistors
+- **D1, D2, D4 & D5** - 4x 3mm LED (recommended red for power, green for activity)
+- **J3** - Power supply female barrel connector
+- **J2** - DB9 female angled connector
+- **SW1** - 4 pin push button
+- **D3** - 1N4001 diode
+- **U2, U3 & U9** - 3x 74HC595
+- **U8** - 1x 74HCT166
+- **U6** - MAX232
+- **U7** - 7805 TO220 regulator
+- **U1** - ATMega328p
+- **Y1** - 20Mhz HC49 crystal
+- **U5** - 20pin slim ZIF socket
+- **U10** - 24pin slim ZIF socket
 - *Heat sink for the power regulator (optional, but recommended)*
 - *5x 16pin socket (optional)*
 - *1x 28pin slim socket (optional)*
+
+Thanks @Porchy for the updated BOM.
+
