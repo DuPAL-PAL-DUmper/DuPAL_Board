@@ -1,5 +1,13 @@
 # DuPAL board
 
+## DISCLAIMER
+
+Any use of this project is under your own responsibility.
+You will be responsible of checking the correct construction and functionality of your board and the compatiblity of the chips You will insert into it.
+By using this project You will agree that I cannot be held responsible if it will destroy any of your devices, damage your computer, burn down your house or whatever.
+
+Do NOT come me for hand-holding using this. It is NOT a plug-and-play tool!
+
 ## Introduction
 
 The DuPAL board is a simple circuit that mounts an AVR MCU (A classic ATmega328P of Arduino fame), three 74HC595 SIPO registers, one 74HCT166 PISO register, a MAX232 to adapt the serial port to RS232, a linear voltage regulator and a bunch of other passive components.
