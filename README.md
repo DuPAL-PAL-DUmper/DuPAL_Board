@@ -87,3 +87,7 @@ The power connector has a positive tip, and is protected against reverse voltage
 
 Thanks @Porchy for the updated BOM.
 
+## TODO
+
+Create a new version with some more resistors and an additional 74HC166 to support PAL20L10 chips...
+
