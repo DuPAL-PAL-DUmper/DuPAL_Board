@@ -89,5 +89,5 @@ Thanks @Porchy for the updated BOM.
 
 ## TODO
 
-Create a new version with some more resistors and an additional 74HC166 to support PAL20L10 chips...
+* New version with additional 74HCT166 to support PAL20L10 chips...
 
