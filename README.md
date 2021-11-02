@@ -60,7 +60,7 @@ The power connector has a positive tip, and is protected against reverse voltage
 
 - **SW2** - Sliding SPST switch
 - **J1** - 3x2 pins 2.54mm pcb male header
-- **C4, C6 & C7** - 4x 1uF / 35v min electrolytic capacitors
+- **C4, C5, C6 & C7** - 4x 1uF / 35v min electrolytic capacitors
 - **C15** - 1x 0.22uF / 35v min electrolytic capacitor
 - **C3, C8, C9, C10, C11, C12, C13, C14, C16, C17** - 10x 100nF ceramic bypass capacitors
 - **C1 & C2** - 2x 22pF NP0 ceramic capacitors
