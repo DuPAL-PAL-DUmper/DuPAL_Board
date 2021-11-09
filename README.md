@@ -46,7 +46,7 @@ Details on the firmware can be found on the **DuPAL_Firmware** repository.
 
 ## Hardware
 
-The board was designed with [KiCad](https://kicad-pcb.org/) EDA.
+The board was designed with [KiCad](https://kicad.org/) EDA.
 
 In its current form, the board is a pretty simple build, using exclusively through-hole components.
 
