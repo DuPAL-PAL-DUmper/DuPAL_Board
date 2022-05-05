@@ -58,7 +58,7 @@ The power connector has a positive tip, and is protected against reverse voltage
 
 ### Bill of Materials
 
-- **SW2** - Sliding SPST switch
+- **SW2** - Sliding SPST switch, pin spacing is 2mm, the outer 2 pins are just for mechanical stability
 - **J1** - 3x2 pins 2.54mm pcb male header
 - **C4, C5, C6 & C7** - 4x 1uF / 35v min electrolytic capacitors
 - **C15** - 1x 0.22uF / 35v min electrolytic capacitor
