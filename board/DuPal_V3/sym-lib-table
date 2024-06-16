@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/ext/RP_Silicon/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
+  (lib (name "Custom_LevelShifter")(type "KiCad")(uri "${KIPRJMOD}/ext/Custom_LevelShifter.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/ext/RP_Silicon/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
+)
