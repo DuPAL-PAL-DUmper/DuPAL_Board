@@ -7456,6 +7456,12 @@
 		(uuid "b3193757-c5ea-47f6-bfb4-74f728d164dc")
 	)
 	(junction
+		(at 52.07 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b608ad75-07d0-4861-8e74-5d9eb6f356da")
+	)
+	(junction
 		(at 365.76 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7926,6 +7932,16 @@
 			(type default)
 		)
 		(uuid "0e448ac9-cc3e-4cd9-b5f4-6c1f276d161b")
+	)
+	(wire
+		(pts
+			(xy 52.07 264.16) (xy 54.61 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f14d778-afeb-4f2b-ace1-ab263871bd22")
 	)
 	(wire
 		(pts
@@ -9929,6 +9945,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 273.05) (xy 52.07 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62538df2-4d01-46a6-9dad-a02aff756272")
+	)
+	(wire
+		(pts
 			(xy 161.29 186.69) (xy 161.29 234.95)
 		)
 		(stroke
@@ -11146,6 +11172,16 @@
 			(type default)
 		)
 		(uuid "950b86a8-65bf-41f3-9ed2-7b6f80828d3c")
+	)
+	(wire
+		(pts
+			(xy 44.45 273.05) (xy 38.1 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "954daf21-a029-4846-977c-f5aa87edb2f1")
 	)
 	(wire
 		(pts
@@ -12769,7 +12805,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 264.16) (xy 54.61 264.16)
+			(xy 38.1 264.16) (xy 52.07 264.16)
 		)
 		(stroke
 			(width 0)
@@ -12846,6 +12882,16 @@
 			(type default)
 		)
 		(uuid "d54b2b10-7cc7-4bb2-9a39-9db74b0e0d0e")
+	)
+	(wire
+		(pts
+			(xy 49.53 273.05) (xy 52.07 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55509ec-1053-4792-aaee-f1be56d2c34d")
 	)
 	(wire
 		(pts
@@ -13286,6 +13332,16 @@
 			(type default)
 		)
 		(uuid "e564c1da-1c04-4f22-8c04-0fb9edd2aba4")
+	)
+	(wire
+		(pts
+			(xy 38.1 273.05) (xy 38.1 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e650d6a0-5003-45dc-8e0f-ec43971b78ef")
 	)
 	(wire
 		(pts
@@ -20758,6 +20814,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 38.1 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bd6af32-8178-4093-8b8f-0fd08a6e54a4")
+		(property "Reference" "#PWR045"
+			(at 38.1 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 267.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 38.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917fa37d-52ed-477f-b2f5-8f58f3c7be4e")
+		)
+		(instances
+			(project "DuPal_V3"
+				(path "/cb33c233-8771-4088-8587-4d700b37a618"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC595")
 		(at 175.26 36.83 0)
 		(unit 1)
@@ -27664,6 +27785,73 @@
 			(project "DuPal_V3"
 				(path "/cb33c233-8771-4088-8587-4d700b37a618"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 46.99 273.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1bd59c8-d0dd-400a-b787-57d45e2bcf63")
+		(property "Reference" "R86"
+			(at 46.99 270.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 46.99 275.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 46.99 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 46.99 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d08e629a-15d3-4566-b8e2-ba88f3b8632e")
+		)
+		(pin "2"
+			(uuid "2b7f6233-89c7-46e7-a597-e4b6dd751e33")
+		)
+		(instances
+			(project "DuPal_V3"
+				(path "/cb33c233-8771-4088-8587-4d700b37a618"
+					(reference "R86")
 					(unit 1)
 				)
 			)
