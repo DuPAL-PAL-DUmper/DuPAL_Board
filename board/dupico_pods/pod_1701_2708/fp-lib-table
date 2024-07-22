@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom_Power_Footprint")(type "KiCad")(uri "C:/Users/hkzla/Development/DuPAL_Board/board/dupico_pods/ext/Custom_Power_Footprint.pretty")(options "")(descr ""))
+)
