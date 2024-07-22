@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MCU_RaspberryPi_and_Boards")(type "KiCad")(uri "${KIPRJMOD}/ext/RP_Silicon/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "Custom_Sockets")(type "KiCad")(uri "${KIPRJMOD}/ext/Custom_Sockets.pretty")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/ext/logo")(options "")(descr ""))
 )
