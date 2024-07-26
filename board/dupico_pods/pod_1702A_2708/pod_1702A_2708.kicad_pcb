@@ -133,7 +133,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U2"
-			(at 2.54 -4.27 0)
+			(at -3.7755 0.762 0)
 			(layer "F.SilkS")
 			(uuid "52713937-39e2-4d21-8fea-f53c03a83f8b")
 			(effects
@@ -143,9 +143,9 @@
 				)
 			)
 		)
-		(property "Value" "LM7905_TO220"
-			(at 2.54 2.5 0)
-			(layer "F.Fab")
+		(property "Value" "LM7905"
+			(at -5.5535 -2.794 0)
+			(layer "F.SilkS")
 			(uuid "d8c22199-c1a4-458e-bfe6-dbf0de13e8f8")
 			(effects
 				(font
@@ -441,7 +441,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 -1.85 90)
+			(at -3.556 0 90)
 			(layer "F.SilkS")
 			(uuid "bd375e37-07bc-472f-bcf7-a3d9c81678e8")
 			(effects
@@ -665,13 +665,14 @@
 			)
 		)
 		(property "Value" "1702A"
-			(at 7.62 35.74 0)
-			(layer "F.Fab")
+			(at 21.336 27.94 270)
+			(layer "F.SilkS")
 			(uuid "bf0cd74d-60c1-4a4b-8881-d0dc40a2e3b0")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.09)
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
 				)
 			)
 		)
@@ -2063,7 +2064,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U3"
-			(at 2.54 -4.27 0)
+			(at -3.7755 0.508 0)
 			(layer "F.SilkS")
 			(uuid "9a11f88a-bf4b-40f2-bf4d-0958b6b60317")
 			(effects
@@ -2073,9 +2074,9 @@
 				)
 			)
 		)
-		(property "Value" "LM7909_TO220"
-			(at 2.54 2.5 0)
-			(layer "F.Fab")
+		(property "Value" "LM7909"
+			(at -5.5535 -2.794 0)
+			(layer "F.SilkS")
 			(uuid "dd456947-7673-48d3-9f40-2b34b5cc4037")
 			(effects
 				(font
@@ -2371,7 +2372,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C8"
-			(at 1 -5.274 90)
+			(at 1.6882 -4.064 180)
 			(layer "F.SilkS")
 			(uuid "a4179dac-f96a-43d4-9e0b-99b504d569f6")
 			(effects
@@ -2382,8 +2383,8 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 1 3.75 90)
-			(layer "F.Fab")
+			(at -2.6298 0 180)
+			(layer "F.SilkS")
 			(uuid "e6bb149a-3370-4116-baf2-0c5aaaed85ee")
 			(effects
 				(font
@@ -3740,13 +3741,14 @@
 			)
 		)
 		(property "Value" "2708"
-			(at 7.62 35.74 0)
-			(layer "F.Fab")
+			(at -5.842 28.194 90)
+			(layer "F.SilkS")
 			(uuid "99d95039-c9ff-4092-b956-711a40d9f01a")
 			(effects
 				(font
-					(size 0.6 0.6)
-					(thickness 0.09)
+					(size 2 2)
+					(thickness 0.4)
+					(bold yes)
 				)
 			)
 		)
@@ -4430,7 +4432,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 1 -3.75 90)
+			(at 3.524 -3.0825 180)
 			(layer "F.SilkS")
 			(uuid "c1c27260-1933-45c0-ab34-938a8f7056e5")
 			(effects
@@ -5999,7 +6001,7 @@
 		(uuid "8ec0adf4-6551-40af-b1da-efbeb7909336")
 		(at 87.63 66.04 -90)
 		(property "Reference" "U1"
-			(at 0 -0.5 -90)
+			(at 0 -6.604 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d716971b-c766-4e29-ace7-4c9f5b287046")
@@ -6011,9 +6013,9 @@
 			)
 		)
 		(property "Value" "RD-0512D"
-			(at 0 1 -90)
+			(at 2.54 0.254 270)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "09eaa37e-f87d-46df-92d0-1ee2272e5138")
 			(effects
 				(font
@@ -6232,7 +6234,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 -1.85 90)
+			(at -3.556 0 90)
 			(layer "F.SilkS")
 			(uuid "64b5cfdd-02a6-46ca-aefb-134a935c26f0")
 			(effects
@@ -6445,7 +6447,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C7"
-			(at 1 -3.75 90)
+			(at -2.064 2.032 180)
 			(layer "F.SilkS")
 			(uuid "0dbd9693-7f24-43da-a3f6-74cab4814aca")
 			(effects
@@ -6456,8 +6458,8 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 1 3.75 90)
-			(layer "F.Fab")
+			(at 4.54 0 180)
+			(layer "F.SilkS")
 			(uuid "b20ee33d-49ea-4731-b63b-d7cc9001d8fd")
 			(effects
 				(font
@@ -8327,7 +8329,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0 -1.85 0)
+			(at 3.556 0 0)
 			(layer "F.SilkS")
 			(uuid "b4f7c1c0-d363-4c0c-8cfe-456b2682ddef")
 			(effects
@@ -8612,6 +8614,76 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fa58c5c0-6c13-460f-ade0-a236fbf58ee3")
+	)
+	(gr_text "+12V"
+		(at 96.52 91.694 90)
+		(layer "F.SilkS")
+		(uuid "11cfa7bd-091f-4aeb-9064-d70b5cde1146")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "-12V"
+		(at 87.122 91.694 90)
+		(layer "F.SilkS")
+		(uuid "47adea5f-43e4-44b0-95f8-f3e8e95efe81")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "-5V"
+		(at 91.694 91.186 0)
+		(layer "F.SilkS")
+		(uuid "5631863f-53bb-47b5-9015-5e4029174192")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "+5V"
+		(at 94.742 91.694 90)
+		(layer "F.SilkS")
+		(uuid "61c9aaa0-7fa7-4ce8-b3a1-bbc09a2f214d")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "GND"
+		(at 85.09 91.694 90)
+		(layer "F.SilkS")
+		(uuid "943ff99c-78fe-4862-9a46-2ad17a9e22c7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "-9V"
+		(at 89.408 91.186 0)
+		(layer "F.SilkS")
+		(uuid "ef8cab99-b36b-4cf3-999c-2c6a2d99d916")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+		)
 	)
 	(segment
 		(start 78.2396 89.0589)
@@ -10094,20 +10166,44 @@
 		(uuid "e0bee4ea-560a-431e-9c0d-bdc5bda776f7")
 	)
 	(segment
-		(start 68.0163 54.356)
-		(end 81.9858 40.3865)
+		(start 80.518 43.434)
+		(end 81.9858 41.9662)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 14)
-		(uuid "2e3894e2-1058-4019-998f-a4ac1cb98fa3")
+		(uuid "09d46a62-c180-47fb-86aa-c02d8757419d")
 	)
 	(segment
-		(start 83.0875 39.624)
+		(start 68.0163 54.356)
+		(end 78.9383 43.434)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "6b05d540-9bbe-4b46-a6f4-9c47414e3471")
+	)
+	(segment
+		(start 81.9858 39.624)
+		(end 83.0875 39.624)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "8db51982-4c6c-4856-aaf9-8f035ff633c8")
+	)
+	(segment
+		(start 81.9858 41.9662)
 		(end 81.9858 39.624)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 14)
-		(uuid "820b5847-f972-4389-b01e-55728e56e071")
+		(uuid "8dbd949a-cbf7-4591-b4e1-4f4ebd799df0")
+	)
+	(segment
+		(start 78.9383 43.434)
+		(end 80.518 43.434)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "9351398e-560d-44cc-a01e-6ef46f6766de")
 	)
 	(segment
 		(start 56.388 54.356)
@@ -10115,15 +10211,7 @@
 		(width 0.2)
 		(layer "B.Cu")
 		(net 14)
-		(uuid "8cf73edb-81be-474d-97d6-779115c7d43a")
-	)
-	(segment
-		(start 81.9858 40.3865)
-		(end 81.9858 39.624)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 14)
-		(uuid "d49720ae-8d86-4649-907b-a82229021094")
+		(uuid "a2c444e4-4e64-4d99-af8e-43ab7acbbead")
 	)
 	(segment
 		(start 72.9297 72.136)
