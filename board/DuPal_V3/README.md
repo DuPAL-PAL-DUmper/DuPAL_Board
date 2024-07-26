@@ -14,7 +14,7 @@ The DuPAL V3, AKA "dupico" board is a simple circuit that mounts a Raspberry Pic
 
 The board is designed to help me analyze and dump various types of PLDs and memories.
 
-![Rev. 1 PCB](pics/rev1.png)
+![Rev. 1 PCB](pics/rev_1.png)
 
 Various adapters (or "pods") can be designed to suit different types of ICs. The pods will be plugged in the ZIF42 socket.
 
