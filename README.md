@@ -16,3 +16,14 @@ The original DuPAL revision 2, currently supported by most tools, but limited in
 
 The [DuPAL V3](https://github.com/DuPAL-PAL-DUmper/DuPAL_Board/tree/master/board/DuPal_V3), AKA "dupico", has more potential and will eventually support a much larger number of devices, but most of the tools have not yet been ported to it. Adapter pods for the dupico can be found [here](https://github.com/DuPAL-PAL-DUmper/DuPAL_Board/tree/master/board/dupico_pods).
 
+### Sponsorship
+
+![PCBWay_logo](pics/pcbway_logo.png)
+
+This project is kindly sponsored by [PCBWay](https://pcbway.com).
+PCBWay specializes in manufacturing high-quality PCBs and makes them affordable to hobbyist and professionals alike.
+
+The range of services they offer include PCB prototyping, assembly, instant quotes for your order, a verification process by a team
+of experts and an easy to use, hassle-free order process.
+
+I'm grateful to PCBWay for the support in creating this project.
