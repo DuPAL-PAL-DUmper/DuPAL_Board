@@ -12,7 +12,7 @@ By using this project You will agree that I cannot be held responsible if it wil
 
 The DuPAL boards are tools meant to help in dumping/reversing the content of some PLDs and memories.
 
-The original DuPAL revision 2, currently supported by most tools, but limited in support to PAL devices (with the exclusion of PAL22) can be found [here](tree/master/boards/DuPal_DIP).
+The original DuPAL revision 2, currently supported by most tools, but limited in support to PAL devices (with the exclusion of PAL22) can be found [here](https://github.com/DuPAL-PAL-DUmper/DuPAL_Board/tree/master/board/DuPal_DIP).
 
-The [DuPAL V3](tree/master/DuPal_DIP), AKA "dupico", has more potential and will eventually support a much larger number of devices, but most of the tools have not yet been ported to it. Adapter pods for the dupico can be found [here](tree/master/boards/dupico_pods).
+The [DuPAL V3](https://github.com/DuPAL-PAL-DUmper/DuPAL_Board/tree/master/board/DuPal_V3), AKA "dupico", has more potential and will eventually support a much larger number of devices, but most of the tools have not yet been ported to it. Adapter pods for the dupico can be found [here](https://github.com/DuPAL-PAL-DUmper/DuPAL_Board/tree/master/board/dupico_pods).
 
