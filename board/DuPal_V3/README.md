@@ -33,4 +33,25 @@ In its current form, the board is relatively simple build, using through-hole an
 
 ### Bill of Materials
 
-**TODO**
+| Component         | Qty | Type / Value                   | Notes                                                    |
+| ----------------- | --- | ------------------------------ | -------------------------------------------------------- |
+| C1, C3 - C14      | 13  | 100nF / 1206 / ceramic         |                                                          |
+| C2                |  1  | 10uF / 10V / 1206 / ceramic    |                                                          |
+| D2, D3, D4        |  3  | Your choice of 1206 SMD LEDs   |                                                          |
+| F1                |  1  | 1206 500mA fuse                | https://www.mouser.it/ProductDetail/530-C1F500           |
+| J1                |  1  | ZIF42 or ZIF48 socket, wide    | If using ZIF42, leave the bottom 6 pins empty on the PCB |
+| J2                |  1  | 1x3 header, 2.54mm pitch       |                                                          |
+| J3                |  1  | 2x8 header, 2.54mm pitch       |                                                          |
+| J4, J5            |  2  | 1x21 header, 2.54mm pitch      | https://www.mouser.it/ProductDetail/653-G6K-2P-Y-DC5     |
+| K1                |  1  | Omron G6K-2P-Y-DC5             |                                                          |
+| Q1                |  1  | 2N3904                         |                                                          |
+| R1                |  1  | 2.2K / 1206                    |                                                          |
+| R2 - R41, R86     | 41  | 10K / 1206                     |                                                          |
+| R42, R46 - R85    | 41  | 10K / 1206                     |                                                          |
+| R43 - R45         |  3  | 1.2K / 1206                    |                                                          |
+| SW1               |  1  | Switch button 6mm              |                                                          |
+| U1                |  1  | Pi Pico                        |                                                          |
+| U2 - U6           |  5  | 75HCT595 SOIC-16               | HCT variant is important                                 |
+| U7                |  1  | 74HCT02 SOIC-14                | HCT variant is important                                 |
+| U8 - U12          |  5  | 74HCT166 SOIC-16               | HCT variant is important                                 |
+| U13               |  1  | SB74LV1T125DBV SOT-23-5        | https://www.mouser.it/ProductDetail/595-74LV1T125DBVRG4  |
