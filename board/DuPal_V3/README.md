@@ -42,8 +42,8 @@ In its current form, the board is relatively simple build, using through-hole an
 | J1                |  1  | ZIF42 or ZIF48 socket, wide    | If using ZIF42, leave the bottom 6 pins empty on the PCB |
 | J2                |  1  | 1x3 header, 2.54mm pitch       |                                                          |
 | J3                |  1  | 2x8 header, 2.54mm pitch       |                                                          |
-| J4, J5            |  2  | 1x21 header, 2.54mm pitch      | https://www.mouser.it/ProductDetail/653-G6K-2P-Y-DC5     |
-| K1                |  1  | Omron G6K-2P-Y-DC5             |                                                          |
+| J4, J5            |  2  | 1x21 header, 2.54mm pitch      |                                                          |
+| K1                |  1  | Omron G6K-2P-Y-DC5             | https://www.mouser.it/ProductDetail/653-G6K-2P-Y-DC5     |
 | Q1                |  1  | 2N3904                         |                                                          |
 | R1                |  1  | 2.2K / 1206                    |                                                          |
 | R2 - R41, R86     | 41  | 10K / 1206                     |                                                          |
