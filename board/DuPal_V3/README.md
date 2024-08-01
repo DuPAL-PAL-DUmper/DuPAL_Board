@@ -14,7 +14,7 @@ The DuPAL V3, AKA "dupico" board is a simple circuit that mounts a Raspberry Pic
 
 The board is designed to help me analyze and dump various types of PLDs and memories.
 
-![Rev. 1 PCB](pics/rev_1.png)
+![Rev. 1 PCB](pics/dupico_board.jpg)
 
 Various adapters (or "pods") can be designed to suit different types of ICs. The pods will be plugged in the ZIF42 socket.
 
@@ -23,6 +23,10 @@ Various adapters (or "pods") can be designed to suit different types of ICs. The
 ### Firmware
 
 See [here](https://github.com/DuPAL-PAL-DUmper/dupico_firmware) for details.
+
+### dpdumper
+
+This is a generic dumper for combinatorial ICs. See [here](https://github.com/DuPAL-PAL-DUmper/dpdumper) for the repository.
 
 ## Hardware
 
@@ -37,6 +41,7 @@ In its current form, the board is relatively simple build, using through-hole an
 | ----------------- | --- | ------------------------------ | -------------------------------------------------------- |
 | C1, C3 - C14      | 13  | 100nF / 1206 / ceramic         |                                                          |
 | C2                |  1  | 10uF / 10V / 1206 / ceramic    |                                                          |
+
 | D2, D3, D4        |  3  | Your choice of 1206 SMD LEDs   |                                                          |
 | F1                |  1  | 1206 500mA fuse                | https://www.mouser.it/ProductDetail/530-C1F500           |
 | J1                |  1  | ZIF42 or ZIF48 socket, wide    | If using ZIF42, leave the bottom 6 pins empty on the PCB |
