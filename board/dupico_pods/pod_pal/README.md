@@ -16,7 +16,7 @@ The PAL POD is an adapter for the DuPAL V3 (AKA "dupico") meant to support 20 an
 
 ### Usage
 
-This device must me inserted in the ZIF socket of the dupico: if you installed a ZIF42 socket, it will fill all the 42 pins, if you installed a 48 pin socket, make sure to leave the bottom 6 pins empty (fit this in the topmost part of the socket).
+This device is inserted in the ZIF socket of the dupico: if you installed a ZIF42 socket, it will fill all the 42 pins, if you installed a 48 pin socket, make sure to leave the bottom 6 pins empty (fit this in the topmost part of the socket).
 
 When you fit a PAL device in it, make sure to align it to the bottom of the ZIF24 socket (so, a 20 pin device will leave empty the topmost 4 pins in the socket). 
 
