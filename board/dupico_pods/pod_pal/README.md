@@ -1,4 +1,4 @@
-# DuPAL board
+# PAL POD for dupico
 
 ## DISCLAIMER
 

@@ -1,4 +1,4 @@
-# DuPAL board
+# DuPAL V3 "dupico" board
 
 ## DISCLAIMER
 
