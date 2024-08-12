@@ -146,7 +146,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 3.048 0 180)
 			(layer "F.SilkS")
 			(uuid "cc7c96bc-d2fd-4dc2-86dd-23054b9527b5")
@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "Value" "74HCT04"
+		(property "Value" "74AC04"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "d9b003cb-77b0-4e0d-9968-72a5b23f502e")
@@ -2051,7 +2051,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SSOP?14* TSSOP?14*")
-		(path "/e46f6281-4729-4ca8-bed0-6ce51fc9dca2")
+		(path "/ea297736-3fd7-47ae-84bd-1c19e95a7a9b")
 		(sheetname "Root")
 		(sheetfile "pod_pal.kicad_sch")
 		(attr smd)
@@ -3081,7 +3081,7 @@
 		(layer "Edge.Cuts")
 		(uuid "be804dc1-9c0d-4a28-8be2-0178bbe9f1aa")
 	)
-	(gr_text "PAL Pod\nRev. 1"
+	(gr_text "PAL Pod\nRev. 2"
 		(at 124.46 92.202 90)
 		(layer "B.SilkS")
 		(uuid "01e8bf27-ab27-45f6-a46f-309d5aac39be")

@@ -59,5 +59,6 @@ In its current form, the board is relatively simple build, using through-hole an
 | JP1               |  1  | 2 pin 2.54mm header            | Optional, bypasses the transistor                        |
 | Q1                |  1  | 2N3906 TO92                    |                                                          |
 | J2                |  1  | narrow ZIF24 socket            | Solder this AFTER the two J1 headers                     |
-| U1                |  1  | 74HCT04 SOIC-14                | https://www.mouser.it/ProductDetail/771-74HCT04D-Q100118 |
+| U1                |  1  | 74CCT04 SOIC-14                |                                                          |
+| R1                |  1  | 1K / 1206                      |                                                          |
 
