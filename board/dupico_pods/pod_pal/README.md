@@ -61,6 +61,6 @@ In its current form, the board is relatively simple build, using through-hole an
 | JP1               |  1  | 2 pin 2.54mm header            | Bypasses the transistor and provides direct 5V           |
 | Q1                |  1  | 2N3906 TO92                    |                                                          |
 | J2                |  1  | narrow ZIF24 socket            | Solder this AFTER the two J1 headers                     |
-| U1                |  1  | 74CCT04 SOIC-14                |                                                          |
+| U1                |  1  | 74ACT04 SOIC-14                |                                                          |
 | R1                |  1  | 1K / 1206                      |                                                          |
 
