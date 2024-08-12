@@ -22,6 +22,8 @@ When you fit a PAL device in it, make sure to align it to the bottom of the ZIF2
 
 **Pulling high pin 22 of the ZIF42 socket will turn on the transistor on the pod, which in turn will provide 5V to pin 22 of the ZIF24 socket**, pin 12 is hardwired to GND, and pin 24 to VCC.
 
+Some old PAL/GAL devices require more current than the switching via pin 22 can provide. In these cases, close JP1 to bypass the transistor and provide 5V directly.
+
 #### Socket connections
 
 This drawing shows how the pin on the ZIF24 sockets are wired to the pins on the dupico's ZIF42.
@@ -31,7 +33,7 @@ This drawing shows how the pin on the ZIF24 sockets are wired to the pins on the
    1 ---> 1   U  24 <--- +5V
    2 ---> 2      23 <-- 41
    3 ---> 3      22 <-- 40 --- 5V if ZIF42 pin 22 is HIGH
-   4 ---> 4      21 <-- 39
+   4 ---> 4      21 <-- 39     or JP1 closed
    5 ---> 5      20 <-- 38
    6 ---> 6      19 <-- 37
    7 ---> 7      18 <-- 36
@@ -56,7 +58,7 @@ In its current form, the board is relatively simple build, using through-hole an
 | ----------------- | --- | ------------------------------ | -------------------------------------------------------- |
 | J1                |  2  | 21 pin 2.54mm headers          | Use rounded pin headers to put less stress on dupico ZIF |
 | C1, C2            |  2  | 100nF / 1206 / ceramic         |                                                          |
-| JP1               |  1  | 2 pin 2.54mm header            | Optional, bypasses the transistor                        |
+| JP1               |  1  | 2 pin 2.54mm header            | Bypasses the transistor and provides direct 5V           |
 | Q1                |  1  | 2N3906 TO92                    |                                                          |
 | J2                |  1  | narrow ZIF24 socket            | Solder this AFTER the two J1 headers                     |
 | U1                |  1  | 74CCT04 SOIC-14                |                                                          |
