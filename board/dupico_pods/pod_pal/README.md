@@ -64,6 +64,8 @@ In its current form, the board is relatively simple build, using through-hole an
 | U1                |  1  | 74ACT04 SOIC-14                |                                                          |
 | R1                |  1  | 1K / 1206                      |                                                          |
 
+If you wish to use a 74HCT04 for U1, use a 2.2K resistor for R1.
+
 ## Errata
 
 - Rev. 0 requires a bodge wire, see changelog for details
