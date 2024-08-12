@@ -5078,17 +5078,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3906")
-		(at 106.68 116.84 0)
-		(mirror y)
+		(at 106.68 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ce6ef8d-4a39-47c6-902a-c06403243cb9")
 		(property "Reference" "Q1"
-			(at 101.6 115.5699 0)
+			(at 101.6 118.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5095,7 @@
 			)
 		)
 		(property "Value" "2N3906"
-			(at 101.6 118.1099 0)
+			(at 101.6 115.5701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5104,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 101.6 118.745 0)
+			(at 101.6 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)

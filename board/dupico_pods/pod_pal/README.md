@@ -64,3 +64,7 @@ In its current form, the board is relatively simple build, using through-hole an
 | U1                |  1  | 74ACT04 SOIC-14                |                                                          |
 | R1                |  1  | 1K / 1206                      |                                                          |
 
+## Errata
+
+- Rev. 0 requires a bodge wire, see changelog for details
+- Rev. 0 and 1 have the footprint of 2N3906 reversed. With these revisions, you need to rotate the transistor in respect to the footprint!
