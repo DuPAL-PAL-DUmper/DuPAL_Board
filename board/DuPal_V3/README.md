@@ -34,6 +34,7 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 
 In its current form, the board is relatively simple build, using through-hole and (non fine pitched) SMD components.
 
+You can order your PCB from [PCBWay](https://www.pcbway.com/project/shareproject/DuPAL_V3_dupico_46fbad8c.html)!
 
 ### Bill of Materials
 
