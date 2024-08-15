@@ -34,7 +34,6 @@ The board was designed with [KiCad](https://kicad.org/) EDA.
 
 In its current form, the board is relatively simple build, using through-hole and (non fine pitched) SMD components.
 
-You can order your PCB from [PCBWay](https://www.pcbway.com/project/shareproject/DuPAL_V3_dupico_46fbad8c.html)!
 
 ### Bill of Materials
 
@@ -52,11 +51,11 @@ You can order your PCB from [PCBWay](https://www.pcbway.com/project/shareproject
 | Q1                |  1  | 2N3904                         |                                                          |
 | R1                |  1  | 2.2K / 1206                    |                                                          |
 | R2 - R41, R86     | 41  | 10K / 1206                     |                                                          |
-| R42, R46 - R85    | 41  | 10K / 1206                     |                                                          |
+| R42, R46 - R85    | 41  | 470K / 1206                     |                                                          |
 | R43 - R45         |  3  | 1.2K / 1206                    |                                                          |
 | SW1               |  1  | Switch button 6mm              |                                                          |
 | U1                |  1  | Pi Pico                        |                                                          |
 | U2 - U6           |  5  | 75HCT595 SOIC-16               | HCT variant is important                                 |
 | U7                |  1  | 74HCT02 SOIC-14                | HCT variant is important                                 |
 | U8 - U12          |  5  | 74HCT166 SOIC-16               | HCT variant is important                                 |
-| U13               |  1  | SB74LV1T125DBV SOT-23-5        | https://www.mouser.it/ProductDetail/595-74LV1T125DBVRG4  |
+| U13               |  1  | SN74LV1T125DBV SOT-23-5        | https://www.mouser.it/ProductDetail/595-74LV1T125DBVRG4  |
