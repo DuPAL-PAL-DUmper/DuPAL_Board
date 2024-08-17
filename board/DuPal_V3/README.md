@@ -51,7 +51,7 @@ In its current form, the board is relatively simple build, using through-hole an
 | Q1                |  1  | 2N3904                         |                                                          |
 | R1                |  1  | 2.2K / 1206                    |                                                          |
 | R2 - R41, R86     | 41  | 10K / 1206                     |                                                          |
-| R42, R46 - R85    | 41  | 470K / 1206                     |                                                          |
+| R42, R46 - R85    | 41  | 470K / 1206                    |                                                          |
 | R43 - R45         |  3  | 1.2K / 1206                    |                                                          |
 | SW1               |  1  | Switch button 6mm              |                                                          |
 | U1                |  1  | Pi Pico                        |                                                          |
@@ -59,3 +59,5 @@ In its current form, the board is relatively simple build, using through-hole an
 | U7                |  1  | 74HCT02 SOIC-14                | HCT variant is important                                 |
 | U8 - U12          |  5  | 74HCT166 SOIC-16               | HCT variant is important                                 |
 | U13               |  1  | SN74LV1T125DBV SOT-23-5        | https://www.mouser.it/ProductDetail/595-74LV1T125DBVRG4  |
+
+⚠️**WARNING:**⚠️ Note that U10, on the backside of the PCB, has the opposite orientation in respect to U8, U9, U11 and U12. This is NOT a mistake, trust the silkscreen in this case.
