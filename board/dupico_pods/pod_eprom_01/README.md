@@ -74,10 +74,3 @@ In its current form, the board is relatively simple build, using through-hole an
 | J2                |  1  | 32 pin wide socket             | Solder this AFTER the two J1 headers, you can use a ZIF32 socket.                                |
 | U2                |  1  | 74ACT138 SOIC-16               |                                                                                                  |
 | R1 - R7           |  7  | 1K / 1206                      |                                                                                                  |
-
-If you wish to use a 74HCT04 for U1, use a 2.2K resistor for R1.
-
-## Errata
-
-- Rev. 0 requires a bodge wire, see changelog for details
-- Rev. 0 and 1 have the footprint of 2N3906 reversed. With these revisions, you need to rotate the transistor in respect to the footprint!
