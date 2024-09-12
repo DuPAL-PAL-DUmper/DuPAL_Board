@@ -22,7 +22,7 @@ When you fit a ROM device in it, make sure to align it to the bottom of the pod 
 
 Pin 32 on the pod socket is **hardwired to VCC**, there are other 7 selectable pins that can provide power, configured with 3 pins on the **ZIF42** socket:
 
-| 22 | 23 | 24 | -> | Powered Pin (32 pin socket) |
+| 24 | 23 | 22 | -> | Powered Pin (32 pin socket) |
 | -- | -- | -- | -- | --------------------------- |
 |  0 |  0 |  0 |    | 30 / 32                     |
 |  0 |  0 |  1 |    | 28 / 32                     |
