@@ -41,6 +41,7 @@ In its current form, the board is relatively simple build, using through-hole an
 | ----------------- | --- | ------------------------------ | -------------------------------------------------------- |
 | C1, C3 - C14      | 13  | 100nF / 1206 / ceramic         |                                                          |
 | C2                |  1  | 10uF / 10V / 1206 / ceramic    |                                                          |
+| D1                |  1  | 1N5818                         |                                                          |
 | D2, D3, D4        |  3  | Your choice of 1206 SMD LEDs   |                                                          |
 | F1                |  1  | 1206 500mA fuse                | https://www.mouser.it/ProductDetail/530-C1F500           |
 | J1                |  1  | ZIF42 or ZIF48 socket, wide    | If using ZIF42, leave the bottom 6 pins empty on the PCB |
