@@ -56,7 +56,7 @@ In its current form, the board is relatively simple build, using through-hole an
 | R43 - R45         |  3  | 1.2K / 1206                    |                                                          |
 | SW1               |  1  | Switch button 6mm              |                                                          |
 | U1                |  1  | Pi Pico                        |                                                          |
-| U2 - U6           |  5  | 75HCT595 SOIC-16               | HCT variant is important                                 |
+| U2 - U6           |  5  | 74HCT595 SOIC-16               | HCT variant is important                                 |
 | U7                |  1  | 74HCT02 SOIC-14                | HCT variant is important                                 |
 | U8 - U12          |  5  | 74HCT166 SOIC-16               | HCT variant is important                                 |
 | U13               |  1  | SN74LV1T125DBV SOT-23-5        | https://www.mouser.it/ProductDetail/595-74LV1T125DBVRG4  |
